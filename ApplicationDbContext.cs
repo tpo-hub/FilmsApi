@@ -30,9 +30,9 @@ namespace FilmsApi
 
         private void SeedData(ModelBuilder model)
         {
-            var rolAdminId = "1a9c6664-b191-4920-ab31-9c0968f2c409";
-            var UserAdminId = "86fc889a-77e2-4ca2-91b4-ac86857a2edc";
-            var UserAdminName = "example@example.com";
+            var rolAdminId = "****************";
+            var UserAdminId = "**************;
+            var UserAdminName = "***********";
 
             var rolAdmin = new IdentityRole()
             {
