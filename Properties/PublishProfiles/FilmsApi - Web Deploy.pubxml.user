@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAejwHQiv33EC0p038aUCWDwAAAAACAAAAAAAQZgAAAAEAACAAAADvZtnEsoeMOuRdQQreoMx5urSE2SRWs9r+2aUC9UKYlgAAAAAOgAAAAAIAACAAAAA/RfEtiGn1rTOoKKBtVSG/TEV8sbBj/YhONFiXxruvpIAAAAC8A/ofGEQMDNTG/xjPO6qIaEyhU56UR2MGVj3nrl7Bw4ZXJ+qQe13GFmGQ8G44iNcTPqYlq8sP6ugB0veN1hR0ryVYEc4Fs+3VYBICF5Jkp4WxnhALUFVmQoLh+RZsZqutzdEzwbbf1OmmnGsuv62GIF1GYb3HvZyjWSsC9L9KVEAAAADzNih4kcqNffnchSjD6kJJ9It48TngNo6viPVzhSo+M6u4zkLD9+doUp2nf+RI8fbVnijIaJOIrSZUD4/3ypJg</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="FilmsApi.ApplicationDbContext">
+      <Value>Data Source=tcp:filmsapidbserver.database.windows.net,1433%3bInitial Catalog=FilmsApi_db%3bUser Id=topoadmin%40filmsapidbserver%3bPassword=Topo2326!</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
