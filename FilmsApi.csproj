@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <UserSecretsId>4940672f-4bdd-43df-912a-9d822264eb4c</UserSecretsId>
-    <ApplicationInsightsResourceId>/subscriptions/7d769213-a0c6-487b-9a73-dbcdc9769c25/resourcegroups/FilmsApi/providers/Microsoft.Insights/components/FilmsApi</ApplicationInsightsResourceId>
+    <UserSecretsId>***************</UserSecretsId>
+    <ApplicationInsightsResourceId>**************</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
