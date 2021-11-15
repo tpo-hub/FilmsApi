@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9p+fB8tk8mT5/NZajXX3HEfW7M4/C1Pc5PbdYZFbyf2IMEzi2xQxa7TyweTJQNJEbp7EkoGa1UOY6P7Va9sWDg==",
+  "dgSpecHash": "ptSImtZcMnf2jtpa1BQ5BWdrSI5MCeoopelNCLVhrJL26D5vKRH8eZASrHIHLQO0ZyBkpCV8Sj9X6M3zmwlIXA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Legislatura\\source\\repos\\FilmsApi\\FilmsApi.csproj",
+  "projectFilePath": "C:\\Users\\Legislatura\\Desktop\\Net Core\\FilmsApi\\FilmsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Legislatura\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Legislatura\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

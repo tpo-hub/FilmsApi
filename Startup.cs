@@ -4,6 +4,7 @@ using FilmsApi.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -35,7 +36,19 @@ namespace FilmsApi
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
             sqlServerOptions => sqlServerOptions.UseNetTopologySuite()));
 
-            services.AddTransient<IStockerFile, StockFilesAzure>();
+            services.AddTransient<IStockerFile>((ServiceProvider)=>{
+
+                var env = ServiceProvider.GetRequiredService<IWebHostEnvironment>();     
+                if(env.IsDevelopment())
+                {
+                    var httContexAccesor = ServiceProvider.GetRequiredService<IHttpContextAccessor>();
+                    return new StockFilesLocal(env, httContexAccesor);
+                }
+                else
+                {
+                    return new StockFilesAzure(Configuration);
+                }
+            });
             //services.AddTransient<IStockerFile, StockFilesLocal>();
 
             services.AddHttpContextAccessor();
@@ -74,7 +87,7 @@ namespace FilmsApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.IsProduction())
             {
                 app.UseDeveloperExceptionPage();
             }

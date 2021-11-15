@@ -9037,11 +9037,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Legislatura\\source\\repos\\FilmsApi\\FilmsApi.csproj",
+      "projectUniqueName": "C:\\Users\\Legislatura\\Desktop\\Net Core\\FilmsApi\\FilmsApi.csproj",
       "projectName": "FilmsApi",
-      "projectPath": "C:\\Users\\Legislatura\\source\\repos\\FilmsApi\\FilmsApi.csproj",
+      "projectPath": "C:\\Users\\Legislatura\\Desktop\\Net Core\\FilmsApi\\FilmsApi.csproj",
       "packagesPath": "C:\\Users\\Legislatura\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Legislatura\\source\\repos\\FilmsApi\\obj\\",
+      "outputPath": "C:\\Users\\Legislatura\\Desktop\\Net Core\\FilmsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
