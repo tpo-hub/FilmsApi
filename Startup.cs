@@ -36,19 +36,7 @@ namespace FilmsApi
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"),
             sqlServerOptions => sqlServerOptions.UseNetTopologySuite()));
 
-            services.AddTransient<IStockerFile>((ServiceProvider)=>{
-
-                var env = ServiceProvider.GetRequiredService<IWebHostEnvironment>();     
-                if(env.IsDevelopment())
-                {
-                    var httContexAccesor = ServiceProvider.GetRequiredService<IHttpContextAccessor>();
-                    return new StockFilesLocal(env, httContexAccesor);
-                }
-                else
-                {
-                    return new StockFilesAzure(Configuration);
-                }
-            });
+            services.AddTransient<IStockerFile>(FactoryEnv.FileStorangeServices); 
             //services.AddTransient<IStockerFile, StockFilesLocal>();
 
             services.AddHttpContextAccessor();

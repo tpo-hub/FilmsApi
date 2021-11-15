@@ -76,3 +76,13 @@ C:\Users\Legislatura\source\repos\FilmsApi\bin\Debug\net5.0\Microsoft.Extensions
 C:\Users\Legislatura\source\repos\FilmsApi\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\Legislatura\source\repos\FilmsApi\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Legislatura\source\repos\FilmsApi\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.csprojAssemblyReference.cache
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.AssemblyInfoInputs.cache
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.AssemblyInfo.cs
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.csproj.CoreCompileInputs.cache
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\EFCoreSqlServerNetTopologySuite.cs
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.dll
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\ref\FilmsApi.dll
+C:\Users\Legislatura\Desktop\Net Core\FilmsApi\obj\Debug\net5.0\FilmsApi.pdb
